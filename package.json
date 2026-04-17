@@ -1,0 +1,17 @@
+{
+  "name": "agritha",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Agritha — connecting farmers and CHC operators across India",
+  "scripts": {
+    "mobile": "pnpm --filter mobile start",
+    "admin": "pnpm --filter admin dev",
+    "lint": "pnpm --recursive lint",
+    "typecheck": "pnpm --recursive typecheck"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  }
+}
